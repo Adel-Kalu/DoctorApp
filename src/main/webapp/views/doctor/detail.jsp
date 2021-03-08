@@ -7,15 +7,15 @@ Picture: <img src="${doctor.picture}"> <br><br>
 
 
 <table>
-	<c:forEach items="${doctor.getAppointments()}" var="appointment">
+	<c:forEach items="${doctor.getPatients()}" var="patient">
 		<tr>
-			<td> Title: ${appointment.date} </td>
+			<td> Title: ${patient.date} </td>
 		</tr>
 		<tr>
-			<td> Description: ${article.patientName} </td>
+			<td> Description: ${patient.patientName} </td>
 		</tr>
 		<tr>
-			<td> Description: ${article.reasonForAppointment} </td>
+			<td> Description: ${patient.reasonForAppointment} </td>
 		</tr>
 			
 	</c:forEach>

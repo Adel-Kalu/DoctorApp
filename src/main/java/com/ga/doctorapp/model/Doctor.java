@@ -20,15 +20,17 @@ public class Doctor {
 	private String specialty;
 	private String picture;
 	
-	@OneToMany(mappedBy="doctor")
-	private Set<Appointment> appointments;
+	@ManyToMany(mappedBy="doctors")
+	private Set<Patient> patients;
 	
-	public Set<Appointment> getAppointments() {
-		return appointments;
+	
+
+	public Set<Patient> getPatients() {
+		return patients;
 	}
 
-	public void setAppointments(Set<Appointment> appointments) {
-		this.appointments = appointments;
+	public void setPatients(Set<Patient> patients) {
+		this.patients = patients;
 	}
 
 	@Column(name="createdAt", nullable = false, updatable = false)

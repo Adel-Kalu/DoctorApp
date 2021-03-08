@@ -1,0 +1,15 @@
+
+@charset "ISO-8859-1";
+
+body {
+	padding: 20px;
+}
+
+.homepage {
+	padding: 20px;
+	background-image: url("../images/hospital.jpg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 500px;
+}

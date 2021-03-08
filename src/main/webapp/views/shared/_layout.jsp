@@ -16,8 +16,8 @@
 <a href="${appName}doctor/add">Add Doctor</a>
 <a href="${appName}doctor/index">Doctors</a>
 
-<a href="${appName}appointment/add">Add Appointment</a>
-<a href="${appName}appointment/index">Appointments</a>
+<a href="${appName}patient/add">Add Appointment</a>
+<a href="${appName}patient/index">Appointments</a>
 
 <hr>
 
